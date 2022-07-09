@@ -66,7 +66,11 @@ const HomeScreen = () => {
         {/* Categories */}
         <Categories />
         {/* Featured Row */}
-        <FeaturedRow/>
+        <FeaturedRow
+          title="Featured"
+          description="Paid placements for our partners"
+          featuredCategory="featured"
+        />
       </ScrollView>
     </SafeAreaView>
   );
