@@ -15,7 +15,7 @@ const HomeScreen = () => {
 
   return (
     <SafeAreaView className="bg-white pt-5">
-      <Text className="text-red-500">
+      
         {/* Header */}
         
         <View className="flex-row pb-3 items-center mx-4 space-x-2 px-4">
@@ -43,12 +43,12 @@ const HomeScreen = () => {
           <AdjustmentsIcon color="#00CCBB"/>
         </View>
         {/* Body */}
-        <ScrollView className="">
+        <ScrollView className="bg-gray-100" contentContainerStyle={{paddingBottom: 100}}>
           {/* Categories */}
           <Categories/>
           {/* Featured Row */}
         </ScrollView>
-      </Text>
+
     </SafeAreaView>
   );
 };
