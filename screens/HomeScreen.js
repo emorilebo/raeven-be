@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from "react-na
 import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { AdjustmentsIcon, ChevronDownIcon, SearchIcon, UserIcon } from 'react-native-heroicons/outline'
+import Categories from "../components/Categories";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -42,8 +43,9 @@ const HomeScreen = () => {
           <AdjustmentsIcon color="#00CCBB"/>
         </View>
         {/* Body */}
-        <ScrollView>
+        <ScrollView className="">
           {/* Categories */}
+          <Categories/>
           {/* Featured Row */}
         </ScrollView>
       </Text>
