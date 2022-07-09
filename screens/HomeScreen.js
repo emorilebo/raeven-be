@@ -1,7 +1,7 @@
 import { View, Text, SafeAreaView, Image } from "react-native";
 import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { ChevronDownIcon } from 'react-native-heroicons/outline'
+import { ChevronDownIcon, UserIcon } from 'react-native-heroicons/outline'
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -31,6 +31,7 @@ const HomeScreen = () => {
                     <ChevronDownIcon size={20} color="#00CCBB"/>
                 </Text>
             </View>
+            <UserIcon size={35} color="#00CCBB"/>
         </View>
       </Text>
     </SafeAreaView>
