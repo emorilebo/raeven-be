@@ -16,7 +16,7 @@ export default {
     validation: (Rule)=>Rule.max(200),
    },
    {
-    name: "iamge",
+    name: "image",
     type: "image",
     title: "Image of the Store",
    },
